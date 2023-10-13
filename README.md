@@ -57,4 +57,4 @@ The initial phase of data exploration was conducted using SQL to:
 * **Load Data into DB2 Database:** The SpaceX dataset was loaded into a corresponding table in a Db2 database for easier manipulation and querying.
 * **SQL Queries for Insights:** Various SQL queries were executed to answer specific questions about the data, providing preliminary insights that guide further analysis.
   
-For detailed queries and results, you can refer to this [SQL Data Exploration Notebook](notebooks/02_eda-sql_sqllite.ipynb).
+For detailed queries and results, you can refer to this [SQL Data Exploration Notebook](notebooks/03a_eda-sql_sqllite.ipynb).
