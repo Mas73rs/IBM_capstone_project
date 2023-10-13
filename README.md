@@ -21,3 +21,20 @@ Additional data was collected by scraping information from a Wikipedia page titl
 
 [Data Collection via Web Scraping Notebook.](notebooks/01b_data-collection_webscraping.ipynb)
 
+## Data Wrangling
+
+The data wrangling process was an essential step in preparing the SpaceX dataset for analysis and modeling. The process involved the following key steps:
+
+1. **Loading Data**: The SpaceX dataset was loaded from a URL into a pandas DataFrame.
+2. **Handling Missing Values**: Calculated the percentage of missing values for each column to identify data issues.
+3. **Identifying Data Types**: Determined numerical and categorical columns using data types (`dtypes`).
+4. **Summary Statistics**:
+    - Calculated launch counts for each site using `value_counts()`.
+    - Calculated occurrences of each orbit type and landing outcomes using `value_counts()`.
+5. **Data Transformation**:
+    - Created a 'Class' column to serve as the label for model training. This was based on the success or failure of landings.
+6. **Data Export**: The cleaned and transformed DataFrame was exported to a CSV file for further analysis.
+
+For a more detailed walkthrough, you can refer to this [Data Wrangling Notebook](./notebooks/data-wrangling.ipynb).
+
+This process was crucial for ensuring the quality and reliability of the data, setting the stage for subsequent analysis and modeling.
