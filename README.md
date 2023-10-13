@@ -9,6 +9,8 @@
     - [1. API](#1-api)
     - [2. Web Scraping](#2-web-scraping)
   - [Data Wrangling](#data-wrangling)
+  - [Data Exploration](#data-exploration)
+    - [1. SQL Analysis](#1-sql-analysis)
 
  
 ## Overview
@@ -44,3 +46,15 @@ The data wrangling process was an essential step in preparing the SpaceX dataset
 For a more detailed walkthrough, you can refer to this [Data Wrangling Notebook](./notebooks/data-wrangling.ipynb).
 
 This process was crucial for ensuring the quality and reliability of the data, setting the stage for subsequent analysis and modeling.
+
+## Data Exploration
+
+### 1. SQL Analysis
+
+The initial phase of data exploration was conducted using SQL to:
+
+* **Understand the SpaceX Dataset:** A deep dive into the dataset to understand its structure, variables, and nuances.
+* **Load Data into DB2 Database:** The SpaceX dataset was loaded into a corresponding table in a Db2 database for easier manipulation and querying.
+* **SQL Queries for Insights:** Various SQL queries were executed to answer specific questions about the data, providing preliminary insights that guide further analysis.
+  
+For detailed queries and results, you can refer to this [SQL Data Exploration Notebook](notebooks/02_eda-sql_sqllite.ipynb).
