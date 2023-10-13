@@ -1,2 +1,5 @@
-# IBM_capstone_project
+# Capstone Project:
  
+## Overview
+
+The commercial space industry is rapidly growing, with several companies striving to make space travel more affordable and accessible. Among them, SpaceX stands out for its cost-effective approach to rocket launches, mainly due to its ability to reuse the first stage of its Falcon 9 rockets. As a data scientist at Space Y, a new rocket company hoping to compete with SpaceX, your task is to estimate the cost of each rocket launch. This project goes beyond traditional rocket science by utilising machine learning models to predict the probability of a successful first-stage landing, thereby estimating the overall cost of a rocket launch. We will use public information and data visualisation tools to guide this exploration and create internal dashboards for actionable insights. This project encompasses various aspects of data science, including data collection and wrangling, statistical analysis, and predictive modelling. The final presentation will tell the story of the journey and the findings.
