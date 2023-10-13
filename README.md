@@ -1,8 +1,14 @@
 # Capstone Project:
 
 ## Table of Contents
-1. [Overview](#overview)
-2. [Data Collection](#data-collection)
+
+- [Capstone Project:](#capstone-project)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Data Collection](#data-collection)
+    - [1. API](#1-api)
+    - [2. Web Scraping](#2-web-scraping)
+  - [Data Wrangling](#data-wrangling)
 
  
 ## Overview
