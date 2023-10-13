@@ -16,7 +16,7 @@ Data for this project was gathered from SpaceX's public API, which provides exte
 
 [Data Collection via API Notebook.](notebooks/01a_data-collection_api.ipynb)
 
-### Web Scraping
+### 2. Web Scraping
 Additional data was collected by scraping information from a Wikipedia page titled [`List of Falcon 9 and Falcon Heavy launches`](https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches), contributing to a comprehensive dataset that enriches the analysis. The web scraping code is available below:
 
 [Data Collection via Web Scraping Notebook.](notebooks/01b_data-collection_webscraping.ipynb)
