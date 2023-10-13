@@ -11,6 +11,7 @@
   - [Data Wrangling](#data-wrangling)
   - [Data Exploration](#data-exploration)
     - [1. SQL Analysis](#1-sql-analysis)
+    - [2. Feature Engineering and Exploratory Data Analysis (EDA)](#2-feature-engineering-and-exploratory-data-analysis-eda)
 
  
 ## Overview
@@ -58,3 +59,17 @@ The initial phase of data exploration was conducted using SQL to:
 * **SQL Queries for Insights:** Various SQL queries were executed to answer specific questions about the data, providing preliminary insights that guide further analysis.
   
 For detailed queries and results, you can refer to this [SQL Data Exploration Notebook](notebooks/03a_eda-sql_sqllite.ipynb).
+
+
+### 2. Feature Engineering and Exploratory Data Analysis (EDA)
+The second phase of data exploration involved feature engineering and in-depth exploratory data analysis to provide actionable insights:
+
+* **Data Visualization:**
+  * Created various visualisations to understand relationships between different variables.
+  * Plots included scatter plots and line charts to analyze the impact of variables like `Flight Number`, `Payload Mass`, and `Year` on launch success.
+* **Insights Extraction:**
+Analyzed the success rate for different launch sites, orbits, and payload masses.
+Studied the average success rate trend over the years.
+* **One-Hot Encoding:** Applied One-Hot Encoding to categorical variables like `Orbit`, `LaunchSite`, `LandingPad`, and `Serial` using `pd.get_dummies()`.
+
+For code snippets and detailed visualisations, you can refer to this [Feature Engineering and EDA Notebook](notebooks/03b_eda_dataviz.ipynb).
