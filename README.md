@@ -98,7 +98,7 @@ This screenshot showcases the different launch sites that SpaceX uses for its mi
 ***Description:***
 >Overview of SpaceX launch sites. Each site's strategic location offers advantages in terms of rocket launch trajectories and safety considerations.
 
-* **Proximity to a City**
+**2. Proximity to a City**
   
 This image illustrates the distance of a launch site to the nearby city, Cape Canaveral. Such a visualization provides insights into the site's location in relation to populated areas.
 
@@ -106,20 +106,20 @@ This image illustrates the distance of a launch site to the nearby city, Cape Ca
 ***Description:***
 >The CCAFS SLC-40 launch site's distance to Cape Canaveral city. Launch sites are typically situated at a safe distance from populated areas to minimize risks in case of launch anomalies.
 
-**Proximity to Coast and Highway:**
+**3. Proximity to Coast and Highway:**
 
 This visualization emphasizes the proximity of the launch site to significant landmarks like the coastline and highways, highlighting logistical and safety considerations.
 
 ![Alt text](results/proximity_road_coast.png)
-*Description:*
+***Description:***
 >The CCAFS SLC-40 launch site's proximity to the coastline and the nearest highway. Being close to the coast allows for safer rocket trajectories over the ocean, while accessibility via highways is crucial for logistics.
 
-**Success & Failed Launches** (success_failed_launches.png):
+**4. Success & Failed Launches** 
 
 A representation of various SpaceX launches, showcasing successful and failed attempts. This visualization provides a comprehensive look at SpaceX's launch history in terms of success rates.
 
 ![Alt text](results/success_failed_launches.png)
-*Description:*
+***Description:***
 >A spatial representation of SpaceX launches, color-coded based on success or failure. It provides an overview of SpaceX's track record over time and across different launch sites.
 
 [Interactive Map Notebook](notebooks/04_interactive_visual_analytics.ipynb)
