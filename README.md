@@ -17,6 +17,8 @@
   - [Model Building and Evaluation](#model-building-and-evaluation)
     - [1. Hyperparameter Tuning](#1-hyperparameter-tuning)
     - [2. Model Evaluation](#2-model-evaluation)
+  - [Conclusion](#conclusion)
+  - [Future Work and Recommendations:](#future-work-and-recommendations)
 
 ## Overview
 
@@ -141,8 +143,33 @@ Following the hyperparameter tuning, each model was rigorously evaluated using t
 
 **Model Comparison Results:**
 
-Delineated below is a visual representation comparing the performance metrics of the various models:
-
 ![Accuracy Comparison](results/metrics_compare.png)
 
+![Confusion Matrix](results/confusion_matrix.png)
+
+The two graphs display similar model performance on the test set, but excel in distinguishing between different classes. False positives remain a significant issue.
+
+
 [Machine Learning](notebooks/05_Machine-Learning-Prediction.ipynb)
+
+## Conclusion
+
+In conclusion, the Space Y data science team has utilised publicly available data, data visualisation tools, and machine learning techniques to estimate rocket launch costs by predicting the probability of a successful first-stage landing. The project's journey encompassed data collection, wrangling, exploration, and model building, culminating in a comprehensive presentation of findings. The team utilised rigorous data wrangling techniques to ensure data quality and reliability. The exploratory data analysis revealed various patterns and relationships in SpaceX launch data, including the relationship between the number of flights and their respective launch sites, the relationship between the payload mass and the launch sites, and the success rate of SpaceX launches depending on the targeted orbit. The team also explored the geographical positioning of the launch sites, providing a deeper understanding of why certain sites might be preferred and the logistical advantages they offer. The insights from this project can be used to improve the cost-effectiveness of future rocket launches, leading to a more affordable and accessible commercial space industry.
+
+## Future Work and Recommendations:
+
+**Incorporate More Data:**
+
+As SpaceX and other commercial space companies continue to launch rockets, it would be beneficial to continuously update the dataset with recent launches, ensuring the model remains current and relevant.
+
+**Expand Data Sources:**
+
+Consider integrating data from other commercial spaceflight companies, like Blue Origin or Rocket Lab, to create a more comprehensive model for predicting rocket landing success across the industry.
+
+**Deep Learning Models:**
+
+Explore the potential of neural networks and deep learning models, which might capture complex patterns and relationships in the data more effectively than traditional machine learning models.
+
+**Feature Engineering:**
+
+Investigate additional features that could be influential in predicting rocket landing success, such as weather conditions during launch, rocket design changes, or advancements in landing technology.
