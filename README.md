@@ -14,6 +14,9 @@
     - [2. Feature Engineering and EDA](#2-feature-engineering-and-eda)
     - [3. Exploratory Data Analysis (EDA) Results](#3-exploratory-data-analysis-eda-results)
   - [Interactive Visual Analysis](#interactive-visual-analysis)
+  - [Model Building and Evaluation](#model-building-and-evaluation)
+    - [1. Hyperparameter Tuning](#1-hyperparameter-tuning)
+    - [2. Model Evaluation](#2-model-evaluation)
 
 ## Overview
 
@@ -123,3 +126,23 @@ A representation of various SpaceX launches, showcasing successful and failed at
 >A spatial representation of SpaceX launches, color-coded based on success or failure. It provides an overview of SpaceX's track record over time and across different launch sites.
 
 [Interactive Map Notebook](notebooks/04_interactive_visual_analytics.ipynb)
+
+## Model Building and Evaluation
+
+The journey of model building initiated with an in-depth Exploratory Data Analysis (EDA). During this phase, a dedicated column was created to serve as the class label. To ensure consistent interpretation of the data by machine learning algorithms, all data was standardized. Subsequently, the comprehensive dataset was divided into training and test subsets to facilitate unbiased model evaluation.
+
+### 1. Hyperparameter Tuning
+
+The quest for optimal model performance led to the exploration of several algorithms: SVM, Classification Trees, and Logistic Regression. For each algorithm, a meticulous search was conducted to identify the best hyperparameters, ensuring that the models were well-tuned to the nuances of the dataset.
+
+### 2. Model Evaluation
+
+Following the hyperparameter tuning, each model was rigorously evaluated using the test data. This step was pivotal in ascertaining the model that showcased superior performance in predicting the desired outcomes.
+
+**Model Comparison Results:**
+
+Delineated below is a visual representation comparing the performance metrics of the various models:
+
+![Accuracy Comparison](results/metrics_compare.png)
+
+[Machine Learning](notebooks/05_Machine-Learning-Prediction.ipynb)
